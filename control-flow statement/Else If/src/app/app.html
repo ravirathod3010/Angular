@@ -1,0 +1,27 @@
+<h1>If Else | Control Flow</h1>
+
+<button (click)="handleColor(1)">Red</button>
+<button (click)="handleColor(2)">Blue</button>
+<button (click)="handleColor(3)">Green</button>
+<button (click)="handleColor(10)">Other</button>
+
+<input type="text" (input)="handleInput($event)"placeholder="Enter Color Number">
+
+@if(color==1){
+    <div style="background-color: red; width: 100px; height: 100px;"></div>
+}
+
+@else if(color==2){
+    <div style="background-color: blue; width: 100px; height: 100px;"></div>
+}
+
+@else if(color==3){
+    <div style="background-color: green; width: 100px; height: 100px;"></div> 
+}
+
+@else{
+    <div style="background-color: black; width: 100px; height: 100px;"></div>
+}
+
+
+

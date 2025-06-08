@@ -1,0 +1,34 @@
+<h1>If Else | Control Flow</h1>
+
+<button (click)="hide()">Hide Div</button>
+<button (click)="show()">show on</button>
+<button (click)="toggle()">toggle</button>
+
+@if(display){
+    <div style="width: 200px; height: 200px; background-color: green;">
+
+    </div>
+}
+
+<!-- x==10 so it's show but if  x==20 so it's not show  other one  =  x>10,x<10 -->   
+<!-- @if(x==10){    
+    <div style="width: 200px; height: 200px; background-color: green;">
+
+    </div>
+} -->
+
+
+<hr>
+<button (click)="toggleTwo()">Toggle Two DIv</button>
+<button (click)="toggleTwo()">{{toggleDiv?'show red div':'show gold div'}}</button>  <!-- Ternary operator-->
+
+@if(toggleDiv){
+    <div style="background-color: gold; width: 200px; height: 200px;">
+
+    </div>
+}
+@else{
+    <div style="background-color: red; width: 200px; height: 200px;">
+
+    </div>    
+}
