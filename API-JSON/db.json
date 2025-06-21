@@ -1,0 +1,19 @@
+{
+    "users":[
+        {
+            "name":"Ravi",
+            "age":"20",
+            "email":"ravi@gmail.com"
+        },
+        {
+            "name":"Meet",
+            "age":"22",
+            "email":"meet@gmail.com"
+        },
+        {
+            "name":"Krrish",
+            "age":"25",
+            "email":"krrish@gmail.com"
+        }
+    ]
+}
